@@ -1,8 +1,29 @@
-# CS6910-Assignment-2
+Image Classification with CNNs on iNaturalist Dataset
+This project focuses on using Convolutional Neural Networks (CNNs) to classify images in a subset of the iNaturalist dataset. The dataset contains a large collection of images of various plant and animal species.
 
-The second assignment was on using CNNs for classifying images in the given subset of iNaturalist dataset. In part A of the assignment a 5 layered CNN was built and trained trained from scratch. This network was then used to classify images in the iNaturalist dataset. In part B of the assignment a pre-trained model viz. Resnet50 was used for the same task. The objective of the second part of the assignment was to demonstrate the concept of transfer learnign whereby complex models trained on large volume of data are fine tuned to perform specific tasks. The fine-tuned model was able to provide double the accuracy on the test set, thereby demonstrating the power of transfer learning.
+Part A: Building a 5-Layered CNN from Scratch
+In the first part of the project, a 5-layered CNN was built from scratch to classify images in the iNaturalist dataset. The trained model was evaluated on a test set to measure its accuracy in correctly classifying the images.
 
-1. The colab files 'cs6910_assignment_2.ipynb' and 'cs6910_assignment_2_PartB.ipynb' were used for developing the program
-2. 'cs6910_assignment_2.ipynb' contains code for Part A of the assignment
-3. 'cs6910_assignment_2_PartB.ipynb' contains code for Part B of the assignment
-4. Once the priliminary version of code was made, the codes were transferred to the python files 'cs6910_assignment_2_PartA.py' and 'cs6910_assignment_2_PartB.py' for training purpose
+Part B: Transfer Learning using a Pre-Trained Model
+In the second part of the project, a pre-trained model (ResNet50) was used for the same classification task. The aim of this part of the project was to demonstrate the concept of transfer learning, where a pre-trained model is fine-tuned to perform a specific task. The ResNet50 model was fine-tuned on the provided subset of the iNaturalist dataset and its performance was evaluated on the test set.
+
+The results showed that the fine-tuned model was able to provide double the accuracy of the model trained from scratch, demonstrating the power of transfer learning.
+
+Tools Used
+The code for this project was developed using Google Colab notebooks, which provided a GPU for faster training. The following Colab files were used for development:
+
+cs6910_assignment_2.ipynb - Contains code for Part A of the assignment
+cs6910_assignment_2_PartB.ipynb - Contains code for Part B of the assignment
+Once the preliminary version of the code was developed in the Colab notebooks, it was transferred to the following Python files for training purposes:
+
+cs6910_assignment_2_PartA.py
+cs6910_assignment_2_PartB.py
+
+Evaluation Metrics
+The performance of the models was evaluated using accuracy as the metric. The accuracy was calculated as the ratio of correctly classified images to the total number of images in the test set.
+
+Conclusion
+This project demonstrated the effectiveness of CNNs for image classification tasks and the power of transfer learning using pre-trained models. The results show that fine-tuning a pre-trained model can significantly improve the prediction accuracy in classifying images.
+
+
+
