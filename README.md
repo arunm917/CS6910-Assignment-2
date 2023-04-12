@@ -16,8 +16,8 @@ Tools Used:
 
 The code for this project was developed using Google Colab notebooks, which provided a GPU for faster training. The following Colab files were used for development:
 
-cs6910_assignment_2.ipynb - Contains code for Part A of the assignment
-cs6910_assignment_2_PartB.ipynb - Contains code for Part B of the assignment
+cs6910_assignment_2_partA.ipynb - Contains code for Part A of the assignment
+cs6910_assignment_2_partB.ipynb - Contains code for Part B of the assignment
 Once the preliminary version of the code was developed in the Colab notebooks, it was transferred to the following Python files for training purposes:
 
 cs6910_assignment_2_PartA.py
